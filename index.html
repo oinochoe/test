@@ -11,10 +11,16 @@
             min-height: 400px;
             background-color: red;
         }
+
+        input {
+            font-size: 12px;
+        }
     </style>
 </head>
 
 <body>
+    <input type="text">
+
     <div>
         <video id="movie" muted="muted" preload="none" loop="loop" data-resize="true" autoplay="">
             <source src="http://videos-cdn.mozilla.net/serv/flux/playdoh/playdoh-overview.webm"
@@ -51,12 +57,12 @@
 
         }
 
-        window.addEventListener('mousemove', function () {
+        // window.addEventListener('mousemove', function () {
 
-            if ($videoTag.pause) {
-                $videoTag.play();
-            }
-        });
+        //     if ($videoTag.pause) {
+        //         $videoTag.play();
+        //     }
+        // });
     </script>
 </body>
 
