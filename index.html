@@ -53,7 +53,9 @@
 
         window.addEventListener('mousemove', function () {
 
-            alert('dd')
+            if ($videoTag.pause) {
+                $videoTag.play();
+            }
         });
     </script>
 </body>
